@@ -1,5 +1,7 @@
 <template>
-  <footer>Copyright 2020 Nuxt Food App</footer>
+  <footer>
+    <p>Copyright 2020 Nuxt Food App</p>
+  </footer>
 </template>
 
 <script>

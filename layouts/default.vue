@@ -3,8 +3,8 @@
     <div class="content">
       <AppMenu />
       <Nuxt />
-      <AppFooter />
     </div>
+    <AppFooter />
   </div>
 </template>
 

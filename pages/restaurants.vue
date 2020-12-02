@@ -1,5 +1,5 @@
 <template>
-  <section class="restaurant">
+  <section class="container restaurant">
     <h1 class="restaurantheading">Restaurants</h1>
     <AppRestaurantInfo />
   </section>
