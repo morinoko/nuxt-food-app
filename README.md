@@ -1,5 +1,7 @@
 # nuxtfoodapp
 
+Deployed at https://nuxt-sample-foodapp.netlify.app/
+
 ## Build Setup
 
 ```bash
