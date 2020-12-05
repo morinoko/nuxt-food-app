@@ -7,8 +7,12 @@ export const state = () => ({
 
 export const getters = {
   cartTotal: state => {
-    if (!state.cart.length) return 0
-    return state.cart.reduce((total, nextItem) => total + +nextItem.total, 0)
+    if (!state.cart.length) return 0;
+    return state.cart.reduce((total, nextItem) => total + +nextItem.total, 0);
+  },
+  cartItemCount: state => {
+    if (!state.cart.length) return 0;
+    return state.cart.reduce((totalQuantity, nextItem) => totalQuantity + +nextItem.quantity, 0);
   }
 };
 
