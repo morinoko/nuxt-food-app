@@ -103,7 +103,7 @@ export default {
   methods: {
     addToCart() {
       let formOutput = {
-        item: this.currentItem,
+        item: this.currentItem.item,
         quantity: this.quantity,
         option: this.selectedOption,
         addOns: this.selectedAddOns,
@@ -111,6 +111,7 @@ export default {
       }
 
       this.cartSubmitted = true;
+      this.$store.commit("addToCart", formOutput);
     }
   }
 }
